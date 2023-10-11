@@ -39,9 +39,11 @@ const Header = () => {
               className="text-blue-600 dark:text-green-500 ml-2 text-2xl"
             ></span>
           </h1>
-          <button className="border border-gray-400 rounded-full px-5 py-3 hover:bg-gray-500 hover:text-white w-[140px]">
-            Download CV
-          </button>
+          <a href="/img/Resume.pdf" download="Resume">
+            <button className="border border-gray-400 rounded-full px-5 py-3 hover:bg-gray-500 hover:text-white w-[140px]">
+              Download CV
+            </button>
+          </a>
         </div>
         <div className="w-1/2 relative xl:my-10 my-5 order-first xl:order-last flex flex-col items-center">
           <div className="hidden xl:block i-bg absolute top-0 right-0 dark:bg-blue-500"></div>
